@@ -1,7 +1,12 @@
+//
+//  Petitions.swift
+//  Whitehouse Petitions
+//
+//  Created by ヴィヤヴャハレ・アディティヤ on 14/12/23.
+//
+
 import Foundation
 
 struct Petitions: Codable {
     var results: [Petition]
 }
-
-//this struct is required as the format of the API O/P JSON holds the necessary strings inside the results array in O/P
